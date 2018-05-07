@@ -1,61 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic portfolio</title>
-    <link rel="stylesheet" href="assests/css/style.css">
-
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <!-----------------NAVIGATION BAR ---------------------->
-    <header id="topMenu">
-       
-        <div class="container">
-            <a href="index.html" id="logo">
-                <p>Reetu Syal</p>
-            </a>
 
-
-            <div class="nav">
-                <a href="index.html" id="about">About</a>
-                <a href="portfolio.html" id="portfolio">Portfolio</a>
-                <a href="contact.html" id="contact">Contact</a>
-
-            </div>
-
-        </div>
-   
-    </header>
-    <!-----------------ABOUT ME -------------------->
-
-    <div class="container" id="meContent">
-
-        <h1>ABOUT ME</h1>
-
-        <img class="image" src="assests/images/Reetu.jpg" style="width:200px;height:200px;">
-        <p class="writing">
-            Here goes information about me. I was born in India. I came to MN when I was 4. Therefore I can truly call myself a "Minnesota".
-            I grew up in NE Mpls when it was a dumb. (Now it's the cultural hub). I went to college, then medical school,
-            then off of to work. In between all of this, I got married, had 3 kids. I like to sleep, hike, hang out with
-            friends, eat at new places unbeknownst to the world. When I grow up, I want to live in a place that is surrounded
-            by mountains.
-        </p>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Reetu Syal</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <!-----------------------Footer-------------->
-    <footer>
-        <div class="container">
+  </header>
 
-            <p>copyright &copy</p>
+  <div class="wrapper">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>About Me</h1>
+        <img src="assets/images/RS.jpg" height="200" width="150" class="auth-image" alt="Your Name">
+        <p>Here you go. A little about me.</p>
 
+      </section>
+
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+          <img src="assets/images/github-128.png" class="social" alt="Github">
+          <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+          <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
         </div>
+      </section>
 
-    </footer>
+      <div class="push"></div>
+    </div>
+  </div>
 
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>

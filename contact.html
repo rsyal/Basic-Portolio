@@ -1,67 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic portfolio</title>
-  <link rel="stylesheet" href="assests/css/style.css">
-   
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-<!-----------------NAVIGATION BAR ---------------------->
 
-  <div class="navigation">
-
-    <div class="name">
-
-        <p>Reetu Syal</p>
-
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Reetu Syal</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    </div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-  <div class="menu">
+      <form id="contact-form">
         <ul>
-            <li class="About"><a href="#">About</a></li>
-            <li class="Portfolio"><a href="#">Portfolio</a></li>
-            <li class="Contact"><a href="#">Contact</a></li>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
         </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <img src="assets/images/github-128.png" class="social" alt="Github">
+        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
     </div>
-
-
-<!-----------------ABOUT ME -------------------->
-      
-
-        <div class="wrapper">
-            <h2>Contact Form</h2>
-            <hr>
-            <input type="text"  name="" id=""
-            placeholder="Name">
-            <input type="text"  name=""
-            placeholder="Email">
-            <textarea name="" col="30" rows="10"
-            placeholder="Message">
-          </textarea>
-
-          <a href="#">Submit</a>
-
-
-
-
-
-        </div>
-    <!-----------------------Footer-------------->
-
-    <div class="footer">
-
-      <p>copyright</p>
-
-    </div>
-  
-
-
-    
+  </footer>
 </body>
+
 </html>
